@@ -1,4 +1,4 @@
-# QRadar
+# IBM QRadar SIEM
 In this section I'll share my special scripts for QRadar.
 
 * Scripts writted in Bash/Python.
