@@ -1,2 +1,5 @@
+# v 0.1.1:
+  - added argument to check program version.
+  - added variable to hold current time.
 # v 0.1.0:
   - script created
