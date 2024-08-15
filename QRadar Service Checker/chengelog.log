@@ -1,2 +1,12 @@
+# v 0.2.0:
+  - added:
+    * added checks for: 'postfix', 'syslog-ng', 'sshd', 'httpd'.
+    * added argument to allow output to CSV file.
+    * added argument to allow verbose.
+    * added argument to print program version.
+    * added more details to 'help' page.
+    * added current time when running checking.
+  - fixed:
+    * description of error message for 'iptables'.
 # v 0.1.0:
-  - script created
+  - script created.
