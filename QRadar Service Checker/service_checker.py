@@ -115,7 +115,7 @@ print("-" * 50)
 parser = argparse.ArgumentParser(
     prog="QRadar Service Checker",
     description="QRadar SIEM services checking on specific host",
-    usage="python3 service_checker.py [-h] [-H HOST_IP] [-o] [-v]",
+    usage="python3 service_checker.py [-h] [-H HOST_IP] [-o] [-v] [--version]",
     epilog="Get the best of your service! For any additional needs for this script please feel free to contact me.")
 parser.add_argument('-H', "--host", help="Host ip.", default="localhost")
 parser.add_argument('-o', "--output", help="Output details to CSV.", action="store_true")
