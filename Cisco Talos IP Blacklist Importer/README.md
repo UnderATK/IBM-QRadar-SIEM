@@ -10,7 +10,7 @@
    ```
    # Token
     token = ""
-    ```
+   ```
   add your QRadar URL to 'qradarUrl' variable:
   ```
     # URL
