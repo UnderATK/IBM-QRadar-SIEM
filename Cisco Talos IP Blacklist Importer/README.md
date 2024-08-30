@@ -1,4 +1,6 @@
 # Cisco Talos IP Blacklist Importer
+**Supported QRadar API versions: <16.0**
+
 ### Installation:
 1. create 'scripts' folder in your QRadar Console host.
   ```
