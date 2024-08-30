@@ -1,10 +1,10 @@
 # Cisco Talos IP Blacklist Importer
 ### Installation:
 1. create 'scripts' folder in your QRadar Console host.
-```
+  ```
   cd /
   mkdir scripts
-```
+  ```
 2. move 'talosBlacklist.py' to 'scripts' folder.
 3. edit the script by adding your 'Authorized token you created in your QRadar:
    ```
@@ -15,7 +15,7 @@
   ```
     # URL
     qradarUrl = ""
-   ```
+  ```
 4. Create Reference set in your QRadar environment named 'Talos IP Blacklist' with 'IP' values.
    
 ### Usage:
