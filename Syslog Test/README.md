@@ -43,3 +43,13 @@ Whether you're setting up a new system, fine-tuning your existing security infra
   -j, --json            Use JSON log format.
   --version             show program's version number and exit
 ```
+
+### Examples:
+* Regular:
+  ```
+  <6> 2024-09-03 14:35:26 HOSTNAME source_ip=192.168.0.1 destination_ip=127.0.0.1 msg=syslog test message
+  ```
+* JSON format:
+  ```
+  {'log_level': '6', 'timestamp': '2024-09-03 14:31:42', 'hostname': 'HOSTNAME', 'source_ip': '192.168.0.1', 'destination_ip': '127.0.0.1', 'msg': 'syslog test message'}
+  ```
