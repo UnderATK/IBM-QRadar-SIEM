@@ -1,5 +1,9 @@
-# v 0.1.1:
+# v1.0.0:
+  - changed the format of the message.
+    * added source and destination ip
+    * added hostname of the sender.
+# v0.1.1:
   - added argument to print program version.
   - added variable to hold current time.
-# v 0.1.0:
+# v0.1.0:
   - script created
