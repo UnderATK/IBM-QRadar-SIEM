@@ -1,7 +1,7 @@
 # Cisco Talos IP Blacklist Importer
 Choose your API version to move to the the related installation path:
    * [API <16.0](https://github.com/UnderATK/IBM-QRadar-SIEM/blob/main/Cisco%20Talos%20IP%20Blacklist%20Importer/README.md#supported-qradar-api-versions-160)
-   * [API >16.0](https://github.com/UnderATK/IBM-QRadar-SIEM/edit/main/Cisco%20Talos%20IP%20Blacklist%20Importer/README.md#supported-qradar-api-versions-160-1)
+   * [API >16.0](https://github.com/UnderATK/IBM-QRadar-SIEM/blob/main/Cisco%20Talos%20IP%20Blacklist%20Importer/README.md#supported-qradar-api-versions-160-1)
 
 ## **Supported QRadar API versions: <16.0**
 ### Installation:
