@@ -28,7 +28,7 @@ Whether you're setting up a new system, fine-tuning your existing security infra
 
 ### Usage:
 ```
-  python3 syslog_test.py [-h] [-m MESSAGE] [-l LEVEL] [-H HOST] [-p PORT] [-n NUMBER] [--version]
+  python3 syslog_test.py [-h] [-m MESSAGE] [-l LEVEL] [-H HOST] [-p PORT] [-n NUMBER] [-j] [--version]
 
   options:
   -h, --help            show this help message and exit
