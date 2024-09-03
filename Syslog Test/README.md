@@ -15,7 +15,7 @@ As part of my work with IBM QRadar, I've developed a versatile script for testin
   * Easily customize for different environments.
 
 🔧 Features
-  * Option to send log as JSON format.
+  * Generate log as JSON format.
 
 Whether you're setting up a new system, fine-tuning your existing security infrastructure, or just want to have a reliable tool in your cybersecurity toolkit, this script could be a game-changer.
 
