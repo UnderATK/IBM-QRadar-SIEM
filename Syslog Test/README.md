@@ -40,5 +40,6 @@ Whether you're setting up a new system, fine-tuning your existing security infra
   -p PORT, --port PORT  Remote syslog server port.
   -n NUMBER, --number NUMBER
                         Number of messages to send.
+  -j, --json            Use JSON log format.
   --version             show program's version number and exit
 ```
