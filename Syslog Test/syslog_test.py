@@ -4,7 +4,7 @@ import argparse
 from datetime import datetime as dt
 
 # define enums
-VR = "0.1.1"
+VR = "1.0.0"
 AUTHOR = "UnderATK"
 
 # define log level enum
@@ -16,9 +16,13 @@ LEVEL = {
 def syslog(message, level=LEVEL['info'], host='localhost', port=514, number=1):
     current_time = f"{dt.now().date()} {'{:02d}'.format(dt.now().hour)}:{'{:02d}'.format(dt.now().minute)}:{'{:02d}'.format(dt.now().second)}"
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    data = f"<{level}> {current_time} msg={message}\n"
+    hostname = socket.gethostname()
+    s_ip = socket.gethostbyname(hostname)
+    d_ip = socket.gethostbyname(host)
+    data = f"<{level}> {current_time} {hostname} source_ip={s_ip} destination_ip={d_ip} msg={message}\n"
+    
     if number > 1:
-        for n in range(1,number+1):
+        for _ in range(1,number+1):
             sock.sendto(data.encode(), (host, port))
     else:
         sock.sendto(data.encode(), (host, port))
