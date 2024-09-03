@@ -6,13 +6,16 @@ As part of my work with IBM QRadar, I've developed a versatile script for testin
 
 🔍 What does it do?
   * Simulates different log sources and events.
-  * Generates logs in standard SYSLOG formats (OR JSON format).
+  * Generates logs in standard SYSLOG formats.
   * Validates the integration of SYSLOG with your SIEM solution.
 
 🔧 Why use it?
   * Streamline your testing process.
   * Ensure robust log monitoring.
   * Easily customize for different environments.
+
+🔧 Featues
+  * Option to send log as JSON format.
 
 Whether you're setting up a new system, fine-tuning your existing security infrastructure, or just want to have a reliable tool in your cybersecurity toolkit, this script could be a game-changer.
 
