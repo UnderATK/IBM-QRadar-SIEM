@@ -7,8 +7,12 @@
   cd /
   mkdir scripts
   ```
-2. move 'talosBlacklist.py' to 'scripts' folder.
-3. edit the script by adding your 'Authorized token you created in your QRadar:
+2. move 'talosBlacklist.py' to 'scripts' folder using WinSCP or other tool.
+3. move to scripts folder:
+   ```
+   cd /scripts/
+   ```
+4. edit the script by adding your 'Authorized token you created in your QRadar:
    ```
    # Token
     token = ""
@@ -18,7 +22,18 @@
     # URL
     qradarUrl = ""
   ```
-4. Create Reference set in your QRadar environment named 'Talos IP Blacklist' with 'IP' values.
+5. Create Reference set in your QRadar environment named 'Talos IP Blacklist' with 'IP' values.
+6. (Optional) Add the script to crontab to run automatically every 1H:
+   ```
+   crontab -e
+
+   add this to the end of the file:
+     0 * * * * /scripts/talosBlacklist.py > /dev/null 2>&1
+   ```
+7. run the script manually:
+   ```
+   python3 talosBlacklist.py
+   ```
    
 ### Usage:
 ```
