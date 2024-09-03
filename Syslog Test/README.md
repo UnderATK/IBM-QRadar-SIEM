@@ -17,6 +17,9 @@ Whether you're setting up a new system, fine-tuning your existing security infra
 
 ### Installation:
 ```
+  cd /
+  mkdir scripts
+  cd /scripts
   mkdir SyslogTest
   cd SyslogTest
   wget https://github.com/UnderATK/IBM-QRadar-SIEM/blob/main/Syslog%20Test/syslog_test.py
