@@ -12,25 +12,29 @@
    ```
    cd /scripts/
    ```
-4. edit the script by adding your 'Authorized token you created in your QRadar:
+4. download the script manually or using wget:
+   ```
+   wget https://github.com/UnderATK/IBM-QRadar-SIEM/blob/main/Cisco%20Talos%20IP%20Blacklist%20Importer/talosBlacklist.py
+   ```
+5. edit the script by adding your 'Authorized token you created in your QRadar:
    ```
    # Token
-    token = ""
+   token = ""
    ```
    add your QRadar URL to 'qradarUrl' variable:
    ```
    # URL
    qradarUrl = ""
    ```
-5. Create Reference set in your QRadar environment named 'Talos IP Blacklist' with 'IP' values.
-6. (Optional) Add the script to crontab to run automatically every 1H:
+6. Create Reference set in your QRadar environment named 'Talos IP Blacklist' with 'IP' values.
+7. (Optional) Add the script to crontab to run automatically every 1H:
    ```
    crontab -e
 
    add this to the end of the file:
      0 * * * * /scripts/talosBlacklist.py > /dev/null 2>&1
    ```
-7. run the script manually:
+8. run the script manually:
    ```
    python3 talosBlacklist.py
    ```
