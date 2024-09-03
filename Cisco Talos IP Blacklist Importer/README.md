@@ -3,10 +3,10 @@
 
 ### Installation:
 1. create 'scripts' folder in your QRadar Console host.
-  ```
-  cd /
-  mkdir scripts
-  ```
+   ```
+   cd /
+   mkdir scripts
+   ```
 2. move 'talosBlacklist.py' to 'scripts' folder using WinSCP or other tool.
 3. move to scripts folder:
    ```
@@ -17,11 +17,11 @@
    # Token
     token = ""
    ```
-  add your QRadar URL to 'qradarUrl' variable:
-  ```
-    # URL
-    qradarUrl = ""
-  ```
+   add your QRadar URL to 'qradarUrl' variable:
+   ```
+   # URL
+   qradarUrl = ""
+   ```
 5. Create Reference set in your QRadar environment named 'Talos IP Blacklist' with 'IP' values.
 6. (Optional) Add the script to crontab to run automatically every 1H:
    ```
