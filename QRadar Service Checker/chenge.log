@@ -1,4 +1,11 @@
-# v 0.2.0:
+# v1.0.0:
+  - whole code restructured.
+  - improved coloring.
+  - improved service checking.
+  - added:
+    * optional fix argument to show possible fix message.
+
+# v0.2.0:
   - added:
     * added checks for: 'postfix', 'syslog-ng', 'sshd', 'httpd'.
     * added argument to allow output to CSV file.
@@ -8,5 +15,6 @@
     * added current time when running checking.
   - fixed:
     * description of error message for 'iptables'.
-# v 0.1.0:
+
+# v0.1.0:
   - script created.
