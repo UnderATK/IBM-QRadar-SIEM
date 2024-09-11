@@ -8,12 +8,13 @@
 
 ### Usage:
 ```
-  python3 service_checker.py [-h] [-H HOST_IP] [-o] [-v] [--version]
+  python3 service_checker.py [-h] [-H HOST_IP] [-o] [-f] [-v] [--version]
 
   options:
   -h, --help            show this help message and exit
-  -H HOST, --host HOST  Host ip.
+  -H HOST, --host HOST  Host IP.
   -o, --output          Output details to CSV.
+  -f, --fix             Show possible fix.
   -v, --verbose         Verbose the details to show on the screen for each step.
   --version             show program's version number and exit
 ```
