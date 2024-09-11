@@ -1,4 +1,4 @@
-# QRadar Service Checker
+# Syslog Test
 
 🚀 Boost Your Syslog Testing with This Script! 🛠️
 
