@@ -1,5 +1,5 @@
 # IBM QRadar SIEM
-In this section I'll share my special scripts for QRadar.
+In this repository, I'll share my special scripts and tools for IBM QRadar SIEM.
 
 * Scripts writted in Bash/Python.
 
